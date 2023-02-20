@@ -1,0 +1,36 @@
+.container{
+    height: 150px;
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-between;
+
+}
+p{
+font-style: oblique;
+font-size: 50px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    padding: 70px 60px;
+    list-style-type: none;
+}
+.linkar{
+    color: black;
+    text-decoration: unset;
+}
+.linkar:hover{
+    color:grey;
+    text-decoration:underline;
+}
+img{
+    height: 40%;
+    height: 40%;
+    padding-left: 85px;
+    display: flex;
+}
+.pai{
+    display: flex;
+    max-width: 100%;
+}
+
