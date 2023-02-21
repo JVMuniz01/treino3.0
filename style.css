@@ -1,13 +1,14 @@
 .container{
-    height: 150px;
     display: flex;
     padding: 30px 80px;
     justify-content: space-between;
-
+}
+.container img{
+    border: none;
 }
 p{
 font-style: oblique;
-font-size: 50px;
+font-size: 30px;
 }
 ul{
     display: flex;
@@ -24,13 +25,46 @@ ul{
     text-decoration:underline;
 }
 img{
-    height: 40%;
-    height: 40%;
-    padding-left: 85px;
+    height: 250px;
+    border: solid 1px black;   
+}
+.container2{
+    display: flex;
+    padding: 0px 85px;
+    justify-content:space-between;
+}
+.son2{
+    display: flex;
+    padding:0px 60px;
+
+}
+.son2 img{
+    height: 500;
+}
+.filho{
     display: flex;
 }
-.pai{
-    display: flex;
-    max-width: 100%;
+.container3{
+display: flex;
+justify-content: space-between;
+padding-left: 80px;
+padding-right: 145px;
 }
+.history img{
+    width: 175px;
+    height: 105px;
+    border: 1px solid black;
+}
+.jutsus img{
+    width: 175px;
+    height: 105px;
+    border: 1px solid black;
+}
+.jinchuuriki img{
+    width: 175px;
+    height: 105px;
+    border: 1px solid black;
+}
+
+
 
