@@ -5,10 +5,12 @@
 }
 .container img{
     border: none;
+    height: 150px;
+    padding-top: 20px;
 }
 p{
 font-style: oblique;
-font-size: 30px;
+font-size: 25px;
 }
 ul{
     display: flex;
@@ -21,12 +23,13 @@ ul{
     text-decoration: unset;
 }
 .linkar:hover{
-    color:grey;
+    color: red;
     text-decoration:underline;
 }
 img{
     height: 250px;
-    border: solid 1px black;   
+    border: solid 2px black;   
+    border-radius: 20%;
 }
 .container2{
     display: flex;
@@ -40,9 +43,6 @@ img{
 }
 .son2 img{
     height: 500;
-}
-.filho{
-    display: flex;
 }
 .container3{
 display: flex;
@@ -65,6 +65,11 @@ padding-right: 145px;
     height: 105px;
     border: 1px solid black;
 }
+body{
+    background-color: orange;
+}
+.back{
+    width: 100%;
+    height: 1000px;
 
-
-
+}
